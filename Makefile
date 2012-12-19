@@ -486,6 +486,9 @@ endif
 
 #TODO: Samples?
 install: prepinstall actualinstall
+	echo $(BINDIR)
+	echo $(DESTDIR)
+	echo $(DESTLIBDIR)
 	@$(call echo,The Ecere SDK has been installed.)
 
 copyonlyinstall: actualinstall

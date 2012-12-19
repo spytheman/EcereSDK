@@ -457,6 +457,7 @@ ifdef LINUX_TARGET
 ifndef STATIC_LIBRARY_TARGET
 OFLAGS += \
 	 -L../deps/libungif-4.1.1/obj/release.$(PLATFORM) \
+	 -L../deps/libpng-1.4.0/obj/release.$(PLATFORM) \
 	 -L/usr/X11R6/lib
 LIBS += \
 	$(call _L,ncurses) \

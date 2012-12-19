@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../\n"
 
-#: ./src/project/Project.ec:1432
+#: ./src/project/Project.ec:1462
 msgid "   %s: No such file or directory\n"
 msgstr "   %s: No such file or directory\n"
 
@@ -343,7 +343,7 @@ msgstr "Build project"
 msgid "Builder"
 msgstr "Builder"
 
-#: ./src/project/Project.ec:1509
+#: ./src/project/Project.ec:1539
 msgid "Building library...\n"
 msgstr "Building library...\n"
 
@@ -489,7 +489,7 @@ msgstr "Compilers Detection"
 msgid "Compiling"
 msgstr "Compiling"
 
-#: ./src/project/Project.ec:1480
+#: ./src/project/Project.ec:1510
 msgid "Compiling...\n"
 msgstr "Compiling...\n"
 
@@ -645,7 +645,7 @@ msgstr "Deleteing intermediate objects for %s %s in project %s using the %s conf
 msgid "Deleteing intermediate objects for %s %s in project %s...\n"
 msgstr "Deleteing intermediate objects for %s %s in project %s...\n"
 
-#: ./src/project/Project.ec:1903
+#: ./src/project/Project.ec:1933
 msgid "Deleting target and object files..."
 msgstr "Deleting target and object files..."
 
@@ -736,7 +736,7 @@ msgstr "Environment Variables"
 msgid "Error creating directory"
 msgstr "Error creating directory"
 
-#: ./src/project/Project.ec:1841
+#: ./src/project/Project.ec:1871
 msgid "Error executing make (%s) command\n"
 msgstr "Error executing make (%s) command\n"
 
@@ -803,7 +803,7 @@ msgstr "Expression"
 msgid "Fast Math"
 msgstr "Fast Math"
 
-#: ./src/project/Project.ec:1633
+#: ./src/project/Project.ec:1663
 msgid "Fatal Error: child process terminated unexpectedly\n"
 msgstr "Fatal Error: child process terminated unexpectedly\n"
 
@@ -816,7 +816,7 @@ msgstr "Fatal Error: child process terminated unexpectedly\n"
 msgid "File"
 msgstr "File"
 
-#: ./src/project/Project.ec:1763
+#: ./src/project/Project.ec:1793
 #: ./src/project/ProjectView.ec:1084
 #: ./src/ide.ec:2585
 msgid "File %s is excluded from current build configuration.\n"
@@ -948,7 +948,7 @@ msgstr "Generating Visual Studio Project..."
 msgid "Generating Visual Studio Solution..."
 msgstr "Generating Visual Studio Solution..."
 
-#: ./src/project/Project.ec:1485
+#: ./src/project/Project.ec:1515
 msgid "Generating symbols...\n"
 msgstr "Generating symbols...\n"
 
@@ -1099,7 +1099,7 @@ msgstr "License"
 msgid "Linker"
 msgstr "Linker"
 
-#: ./src/project/Project.ec:1545
+#: ./src/project/Project.ec:1575
 msgid "Linker Error"
 msgstr "Linker Error"
 
@@ -1107,7 +1107,7 @@ msgstr "Linker Error"
 msgid "Linker Options"
 msgstr "Linker Options"
 
-#: ./src/project/Project.ec:1498
+#: ./src/project/Project.ec:1528
 msgid "Linking...\n"
 msgstr "Linking...\n"
 
@@ -1473,7 +1473,7 @@ msgstr "Project Settings"
 msgid "Project View"
 msgstr "Project View"
 
-#: ./src/project/Project.ec:814
+#: ./src/project/Project.ec:844
 msgid "Project has been modified"
 msgstr "Project has been modified"
 
@@ -1869,7 +1869,7 @@ msgstr "Target Platform"
 msgid "Target Type"
 msgstr "Target Type"
 
-#: ./src/project/Project.ec:1910
+#: ./src/project/Project.ec:1940
 msgid "Target and object files deleted\n"
 msgstr "Target and object files deleted\n"
 
@@ -1932,7 +1932,7 @@ msgstr "The program %s has exited with a signal%s.\n"
 msgid "The program %s has exited%s.\n"
 msgstr "The program %s has exited%s.\n"
 
-#: ./src/project/Project.ec:812
+#: ./src/project/Project.ec:842
 msgid "The project %s was modified by another application.\nWould you like to reload it and lose your changes?"
 msgstr "The project %s was modified by another application.\nWould you like to reload it and lose your changes?"
 
@@ -2125,7 +2125,7 @@ msgstr "Would you like to save changes made to the project options?"
 msgid "Would you like to save changes made to the workspace options?"
 msgstr "Would you like to save changes made to the workspace options?"
 
-#: ./src/project/Project.ec:1511
+#: ./src/project/Project.ec:1541
 msgid "Writing symbol loader...\n"
 msgstr "Writing symbol loader...\n"
 
@@ -2145,8 +2145,8 @@ msgstr "You must provide a valid source directory in order to place a breakpoint
 msgid "You must specify a search location."
 msgstr "You must specify a search location."
 
-#: ./src/project/Project.ec:1350
-#: ./src/project/Project.ec:1625
+#: ./src/project/Project.ec:1380
+#: ./src/project/Project.ec:1655
 msgid "\nBuild cancelled by user.\n"
 msgstr "\nBuild cancelled by user.\n"
 
@@ -2190,11 +2190,11 @@ msgstr "err: Unable to create FIFO %s\n"
 msgid "err: Unable to open FIFO %s for read\n"
 msgstr "err: Unable to open FIFO %s for read\n"
 
-#: ./src/project/Project.ec:1640
+#: ./src/project/Project.ec:1670
 msgid "error"
 msgstr "error"
 
-#: ./src/project/Project.ec:1640
+#: ./src/project/Project.ec:1670
 msgid "errors"
 msgstr "errors"
 
@@ -2217,11 +2217,11 @@ msgstr "found"
 msgid "inside %s, %s\n"
 msgstr "inside %s, %s\n"
 
-#: ./src/project/Project.ec:1642
+#: ./src/project/Project.ec:1672
 msgid "no error, "
 msgstr "no error, "
 
-#: ./src/project/Project.ec:1647
+#: ./src/project/Project.ec:1677
 msgid "no warning\n"
 msgstr "no warning\n"
 
@@ -2251,11 +2251,11 @@ msgstr "single file"
 msgid "unknown source\n"
 msgstr "unknown source\n"
 
-#: ./src/project/Project.ec:1645
+#: ./src/project/Project.ec:1675
 msgid "warning"
 msgstr "warning"
 
-#: ./src/project/Project.ec:1645
+#: ./src/project/Project.ec:1675
 msgid "warnings"
 msgstr "warnings"
 

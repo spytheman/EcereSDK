@@ -9,6 +9,8 @@ COMPILER := default
 endif
 
 TARGET_TYPE = staticlib
+CFLAGS = -m32
+LDFLAGS = -m32
 
 # FLAGS
 
@@ -85,6 +87,7 @@ LIBS += $(SHAREDLIB) $(EXECUTABLE) $(LINKOPT)
 
 PRJ_CFLAGS += \
 	 $(if $(DEBUG), -g, -O2 -ffast-math) $(FPIC) -w \
+       -m32 \
 			 -I. \
 			 -I../zlib
 
